@@ -373,7 +373,7 @@ main { padding-top: 70px; }
   color: #fff;
 }
 
-.banner-below-content {
+.banner-below-content, .registration-fees {
   background-color: #f1f1f1;
 }
 
@@ -393,7 +393,7 @@ main { padding-top: 70px; }
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.the-schedule h2 {
+.the-schedule h2, .registration-fees h2  {
   margin: 70px 0 40px;
   text-transform: uppercase;
   text-align: center;
@@ -408,3 +408,39 @@ main { padding-top: 70px; }
   font-size: 16px; 
   font-family: 'Open Sans', Arial, sans-serif;
 }
+
+.registration-fees {
+  padding: 10px 0 60px;
+  text-align: center;
+}
+
+.div-border {
+  width: 750px;
+  height: 117px;
+  padding: 25px;
+  display: inline-block;
+  border: solid 3px #F2F2F2;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border-color: #2b6998;
+}
+
+.div-border h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2b6998;
+  padding-bottom: 10px;
+}
+
+.div-border h4 {
+  text-transform: capitalize;
+  color: #5c5c5c;
+  padding-bottom: 10px;
+}
+
+.div-border ul { 
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.div-border ul li { display: inline-block; }
